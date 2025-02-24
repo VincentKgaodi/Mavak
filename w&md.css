@@ -76,6 +76,10 @@ img {
 #ink {
     font-weight: bold;
 }
+#clear:hover {
+    background-color: red;
+    color: white;
+}
 #ink:hover{
     color: #0d4eda;
 }
