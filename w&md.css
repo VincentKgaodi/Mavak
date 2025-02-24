@@ -1,0 +1,85 @@
+/*Apply changes to the body*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: #15093f;
+}
+/*Style the header*/
+header {
+    background-color: #dacef5;
+    color: rgb(39, 2, 2);
+    text-align: center;
+    padding:15px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+/*Style the navigation bar*/
+nav, a{
+    color: white;
+    text-decoration: none;
+    margin:0 10px;
+    font-weight: bold;
+}
+nav, a:hover{
+    transition: 0.1s;
+    color: rgb(255, 255, 255);
+}
+/*Center content*/
+section{
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(203, 225, 247);
+    box-shadow: 0 0 10px rgba(234, 234, 240, 0.7);
+    border-radius: 6px;
+}
+
+    /*Style the footer*/                
+footer {
+    text-align: center;
+    background-color: #dacef5;
+    color: white;
+    padding: 30px;
+}
+p, a{
+    color: black;
+}
+/*Style the form*/
+input[type="text"], input[type="email"]{
+    width: 30%;
+    padding: 8px;
+    margin:5px 0;
+    background-color: transparent;
+    border-radius: 6px;
+    border: 1px solid #8c5ff5;
+}
+
+input[type="button"] {
+    background-color: #8c5ff5;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+
+}
+input[type="button"]:hover {
+    transition: 0.2s;
+    background-color: #129712;
+    color: red;
+}
+img {
+    height: 250px;
+    width: 250px;
+    padding: 6px;
+}
+#ink {
+    font-weight: bold;
+}
+#ink:hover{
+    color: #0d4eda;
+}
+#fly {
+    height: 400px;
+    width:250px;
+}
